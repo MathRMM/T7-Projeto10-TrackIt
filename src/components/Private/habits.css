@@ -1,0 +1,70 @@
+.newHabit {
+    height: 180px;
+    margin-bottom: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px;
+    border-radius: 5px;
+    font-family: 'Lexend Deca';
+}
+
+.newHabit input {
+    width: 85vw;
+    height: 45px;
+    background: #FFFFFF;
+    border: 1px solid #D5D5D5;
+    border-radius: 5px;
+}
+
+.newHabit button.day {
+    margin: 8px 4px;
+    height: 25px;
+    background: #FFFFFF;
+    border: 1px solid #D5D5D5;
+    border-radius: 5px;
+    color: #DBDBDB;
+}
+
+.newHabit button.day.click {
+    background:#CFCFCF;
+    border: 1px solid #CFCFCF;
+    color: #FFFFFF;
+}
+
+.newHabit .actions {
+    width: 85vw;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.newHabit .actions button {
+    width: 84px;
+    height: 35px;
+    margin-right: 10px;
+    font-size: 14px;
+    line-height: 20px;
+    border: none;
+}
+
+.newHabit .actions button.cancel {
+    background-color: white;
+    color: #52B6FF;
+    border: none;
+}
+
+.newHabit .actions button.save {
+    background: #52B6FF;
+    border-radius: 5px;
+    color: white;
+}
+
+p.text{
+    width: 90vw;
+    font-family: 'Lexend Deca';
+    font-size: 18px;
+    line-height: 22px;
+    color: #666666;
+    }
